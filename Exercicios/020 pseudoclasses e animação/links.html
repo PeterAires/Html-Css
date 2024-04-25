@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{color: brown;
+        text-decoration:none; font-weight: bold;}
+        a:visited{color: rgb(24, 118, 155);}
+        a:hover{text-decoration:underline ;}
+        a:active{color: yellow;}
+        a::after{content: ' [link]';}
+        .especial::after{content: '[link]' ' melhor' ;color: blueviolet;}
+         
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://google.com">Github</a></li>
+        <li><a class="especial" href="https://youtube.com" >Canal do Youtube</a></li>
+        <li><a href="https://cursoemvideo.com">SiteCursoemVideo</a></li>
+    </ul>
+</body>
+</html>

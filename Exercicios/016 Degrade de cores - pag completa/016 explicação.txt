@@ -1,0 +1,16 @@
+Para o site reconhecer caracteries brasileiros
+
+regra geral e familia da font
+
+degrade para a direita duas cores selecionadas, vai bugar, mais é so apagar essa linha
+
+para deixar o p pais bonitinho, alinhadinho
+
+main definino o conteudo principal dentro do body 
+padding o tamanho do quadrado criado, a distancia do texto e da margem do quadrado
+margin alto, para o conteudo ficar no meio 
+border radius definine o quanto as pontas das folhas vao ser curvas
+box shadow, como esta no main vai calcular a sombra dele e a cor da somrba
+
+h1 text align center alinhar texto no centro
+text shadow, sombra(tamanho, largura e blablabla) e cor delaz
